@@ -8,7 +8,9 @@ CarMori is a bilingual vehicle-care web application for car owners in Japan.
 - Vehicle profile and maintenance schedule
 - Existing-parking and partner-storage customer journeys
 - Service and storage quote requests
-- Quote approval and booking status
+- Itemised partner quotations and customer approval
+- Four-step booking and service progress
+- In-app quote notifications
 - Service history
 - Responsive mobile and desktop layout
 - Browser-local demo data for prototype testing
@@ -29,4 +31,5 @@ This repository contains an interactive front-end MVP. Authentication, shared da
 
 ## Website
 
-https://carmori.pages.dev/
+- GitHub Pages: https://jogi73.github.io/Car-mori/
+- Original prototype: https://carmori.pages.dev/

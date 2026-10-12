@@ -14,7 +14,11 @@
         <span class="brand-mark">C</span>
         <span>CarMori <small>カーモリ</small></span>
       </a>
-      <button id="languageButton" class="language-button" type="button">English</button>
+      <div class="top-actions">
+        <button id="notificationButton" class="icon-button" type="button" aria-label="Notifications">🔔<span class="notification-dot">1</span></button>
+        <button id="languageButton" class="language-button" type="button">English</button>
+        <span class="avatar" aria-label="Rakshith Jogi profile">RJ</span>
+      </div>
     </header>
 
     <main id="app" tabindex="-1"></main>
@@ -28,6 +32,7 @@
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="quoteDialog" class="quote-dialog"></dialog>
   <script src="app.js"></script>
 </body>
 </html>
