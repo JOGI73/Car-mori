@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#102430" />
+  <title>CarMori App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#dashboard" aria-label="CarMori home">
+        <span class="brand-mark">C</span>
+        <span>CarMori <small>カーモリ</small></span>
+      </a>
+      <button id="languageButton" class="language-button" type="button">English</button>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Primary navigation">
+      <a href="#dashboard" data-nav="dashboard"><span>⌂</span><b data-i18n="navHome">ホーム</b></a>
+      <a href="#vehicle" data-nav="vehicle"><span>▰</span><b data-i18n="navCar">愛車</b></a>
+      <a href="#book" data-nav="book" class="book-link"><span>＋</span><b data-i18n="navBook">予約</b></a>
+      <a href="#activity" data-nav="activity"><span>✓</span><b data-i18n="navHistory">履歴</b></a>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
